@@ -33,13 +33,13 @@
                 <div class="col-md-3" id="login-wrapper">
                     <div class="panel panel-primary animated flipInY">
                         <div class="panel-heading">
-                            <h3 class="panel-title">     
+                            <h3 class="panel-title">
                                Iniciar Sessión
-                            </h3>      
+                            </h3>
                         </div>
                         <div class="panel-body">
-                        <?php 
-                            
+                        <?php
+
                             if (isset($_GET['invalid'])) {
                                 echo "<div class='alert alert-danger alert-dismissible fade in' role='alert'>
                                     <strong>Error!</strong> Contraseña o correo Electrónico invalido
@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="form-group">
                                    <div class="col-md-12">
-                                        <button name="token" class="btn btn-primary btn-block" type="submit">Acceder</button>
+                                        <button name="token" class="btn btn-primary btn-block" type="submit">Ingresar</button>
                                     </div>
                                 </div>
                             </form>
