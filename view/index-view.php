@@ -62,7 +62,7 @@
                                 </div>
                                 <div class="form-group">
                                    <div class="col-md-12">
-                                        <button name="token" class="btn btn-primary btn-block" type="submit">Ingresar</button>
+                                        <button name="token" class="btn btn-primary btn-block" type="submit">Acceder</button>
                                     </div>
                                 </div>
                             </form>
