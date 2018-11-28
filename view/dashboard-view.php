@@ -62,6 +62,17 @@
                             </div>
                         </div>
                     </div>
+
+                    <div class="col-md-3 col-sm-6">
+                        <div class="dashboard-tile detail tile-blue">
+                            <div class="content">
+                                <h1 class="text-left timer" data-from="0" data-to="<?php echo mysqli_num_rows($asignacion_de_vehiculos) ?>" data-speed="2500"> </h1>
+                                <p>Asignacion de Vehiculos</p>
+                            </div>
+                            <div class="icon"><i class="fa fa-building-o"></i>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-md-3 col-sm-6">
                         <div class="dashboard-tile detail tile-purple">
                             <div class="content">
